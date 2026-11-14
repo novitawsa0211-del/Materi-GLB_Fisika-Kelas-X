@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLB Challenge - Media Pembelajaran Fisika</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <span class="eyebrow">MEDIA PEMBELAJARAN FISIKA KELAS X</span>
+    <h1>GLB CHALLENGE</h1>
+    <p>Jelajahi konsep Gerak Lurus Beraturan melalui materi,
+      percobaan, grafik, dan kuis interaktif.</p>
+    <button onclick="showPage('materi')">Mulai Belajar →</button>
+  </div>
+</header>
+
+<nav class="navbar">
+  <button onclick="showPage('beranda')">Beranda</button>
+  <button onclick="showPage('materi')">Materi</button>
+  <button onclick="showPage('simulasi')">Percobaan</button>
+  <button onclick="showPage('grafik')">Grafik</button>
+  <button onclick="showPage('kuis')">Kuis</button>
+</nav>
+
+<main>
+
+  <!-- BERANDA -->
+  <section id="beranda" class="page active">
+    <div class="welcome">
+      <div>
+        <span class="eyebrow">SELAMAT DATANG</span>
+        <h2>Belajar GLB Jadi Lebih Menyenangkan!</h2>
+        <p>
+          Pernahkah kamu memperhatikan mobil yang bergerak
+          di jalan lurus dengan kecepatan tetap?
+          Fenomena tersebut dapat dijelaskan melalui
+          konsep Gerak Lurus Beraturan.
+        </p>
+        <p>
+          Melalui media ini, kamu akan mempelajari konsep GLB,
+          melakukan percobaan virtual, mengamati grafik,
+          dan menguji pemahaman melalui kuis.
+        </p>
+        <button onclick="showPage('materi')">Pelajari Materi</button>
+      </div>
+      <div class="welcome-art">
+        <div class="big-icon">🚗</div>
+        <h3>Let's Explore Physics!</h3>
+        <p>Amati · Coba · Analisis · Pahami</p>
+      </div>
+    </div>
+
+    <h3 class="section-heading">Apa yang akan kamu pelajari?</h3>
+    <div class="card-grid">
+      <article class="info-card">
+        <span class="card-icon">📖</span>
+        <h3>Materi GLB</h3>
+        <p>Memahami konsep, karakteristik, dan persamaan GLB.</p>
+      </article>
+      <article class="info-card">
+        <span class="card-icon">🔬</span>
+        <h3>Percobaan</h3>
+        <p>Mengamati gerak benda dan mengumpulkan data percobaan.</p>
+      </article>
+      <article class="info-card">
+        <span class="card-icon">📊</span>
+        <h3>Grafik</h3>
+        <p>Menganalisis grafik posisi-waktu dan kecepatan-waktu.</p>
+      </article>
+      <article class="info-card">
+        <span class="card-icon">🏆</span>
+        <h3>Kuis</h3>
+        <p>Menguji pemahaman melalui lima soal pilihan ganda.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- MATERI -->
+  <section id="materi" class="page">
+    <span class="eyebrow">BAGIAN 01</span>
+    <h2>Materi Gerak Lurus Beraturan</h2>
+    <p class="intro">
+      Pelajari materi berikut secara berurutan untuk memahami
+      konsep Gerak Lurus Beraturan.
+    </p>
+
+    <article class="lesson-card">
+      <h3>1. Pengertian Gerak Lurus Beraturan</h3>
+      <p>
+        Gerak Lurus Beraturan (GLB) adalah gerak suatu benda
+        pada lintasan lurus dengan kecepatan tetap.
+        Artinya, benda bergerak dengan nilai kecepatan
+        dan arah yang tidak berubah.
+      </p>
+      <div class="illustration">🚗 ───────────────→</div>
+      <p>
+        Pada GLB, benda menempuh jarak yang sama dalam
+        selang waktu yang sama. Misalnya, sebuah mobil
+        bergerak dengan kecepatan tetap 10 m/s.
+        Setiap satu sekon, mobil tersebut menempuh jarak 10 meter.
+      </p>
+    </article>
+
+    <article class="lesson-card">
+      <h3>2. Karakteristik GLB</h3>
+      <ul>
+        <li>Lintasan gerak berupa garis lurus.</li>
+        <li>Kecepatan benda tetap, baik besar maupun arahnya.</li>
+        <li>Percepatan benda sama dengan nol.</li>
+        <li>Benda menempuh perpindahan yang sama
+          dalam selang waktu yang sama.</li>
+        <li>Grafik posisi terhadap waktu berupa garis lurus.</li>
+        <li>Grafik kecepatan terhadap waktu berupa garis horizontal.</li>
+      </ul>
+    </article>
+
+    <article class="lesson-card">
+      <h3>3. Besaran-Besaran dalam GLB</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Besaran</th>
+              <th>Simbol</th>
+              <th>Satuan SI</th>
+              <th>Pengertian</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Posisi</td><td>x</td><td>meter (m)</td>
+              <td>Letak benda terhadap titik acuan.</td>
+            </tr>
+            <tr>
+              <td>Jarak</td><td>s</td><td>meter (m)</td>
+              <td>Panjang lintasan yang ditempuh.</td>
+            </tr>
+            <tr>
+              <td>Waktu</td><td>t</td><td>sekon (s)</td>
+              <td>Lama benda bergerak.</td>
+            </tr>
+            <tr>
+              <td>Kecepatan</td><td>v</td><td>m/s</td>
+              <td>Perubahan posisi setiap satuan waktu.</td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+  
+<article class="lesson-card">
+  <h3>4. Persamaan Matematis GLB</h3>
+  <p>Kecepatan merupakan perbandingan antara jarak yang ditempuh dan waktu tempuh.</p>
+
+  <div class="formula">v = s / t</div>
+
+  <p>Untuk menghitung jarak yang ditempuh:</p>
+  <div class="formula">s = v × t</div>
+
+  <p>Untuk menghitung waktu tempuh:</p>
+  <div class="formula">t = s / v</div>
+
+  <p>Keterangan:</p>
+  <ul>
+    <li>v = kecepatan (m/s)</li>
+    <li>s = jarak (m)</li>
+    <li>t = waktu (s)</li>
+  </ul>
+</article>
+
+    <article class="lesson-card">
+      <h3>5. Grafik pada GLB</h3>
+      <p>
+        Grafik posisi terhadap waktu menunjukkan perubahan
+        posisi benda selama bergerak. Kemiringan garisnya
+        menunjukkan kecepatan benda.
+      </p>
+      <p>
+        Grafik kecepatan terhadap waktu menunjukkan bahwa
+        kecepatan benda tetap selama gerak berlangsung.
+      </p>
+      
+<div class="mini-visual">
+  <div>
+    <strong>Grafik posisi-waktu (s-t)</strong>
+    <svg viewBox="0 0 220 150" width="100%" role="img"
+      aria-label="Grafik posisi terhadap waktu berupa garis lurus menaik">
+      <path d="M30 10 V120 H205" fill="none"
+        stroke="#52677f" stroke-width="2"/>
+      <path d="M30 120 L190 25" fill="none"
+        stroke="#3978c8" stroke-width="3"/>
+      <text x="8" y="15" font-size="10" fill="#293950">s</text>
+      <text x="200" y="140" font-size="10" fill="#293950">t</text>
+    </svg>
+    <small>Garis lurus dengan kemiringan tetap</small>
+  </div>
+
+  <div>
+    <strong>Grafik kecepatan-waktu (v-t)</strong>
+    <svg viewBox="0 0 220 150" width="100%" role="img"
+      aria-label="Grafik kecepatan terhadap waktu berupa garis horizontal">
+      <path d="M30 10 V120 H205" fill="none"
+        stroke="#52677f" stroke-width="2"/>
+      <path d="M30 55 H190" fill="none"
+        stroke="#15966a" stroke-width="3"/>
+      <text x="8" y="15" font-size="10" fill="#293950">v</text>
+      <text x="200" y="140" font-size="10" fill="#293950">t</text>
+    </svg>
+    <small>Garis horizontal karena kecepatan tetap</small>
+  </div>
+</div>
+    </article>
+
+    <article class="lesson-card">
+      <h3>6. Contoh GLB dalam Kehidupan Sehari-hari</h3>
+      <div class="example-grid">
+        <div class="example-item">🚗<p>Mobil bergerak lurus dengan kecepatan tetap.</p></div>
+        <div class="example-item">🚆<p>Kereta bergerak pada lintasan lurus dengan kecepatan tetap.</p></div>
+        <div class="example-item">🏃<p>Pelari bergerak lurus dengan kecepatan tetap.</p></div>
+        <div class="example-item">🚴<p>Pesepeda melaju lurus dengan kecepatan tetap.</p></div>
+      </div>
+      <p class="note">
+        Catatan: contoh tersebut merupakan kondisi ideal.
+        Gerak sebenarnya dapat mengalami perubahan kecepatan.
+      </p>
+    </article>
+
+    <article class="lesson-card">
+      <h3>7. Contoh Soal</h3>
+      <p>
+        Sebuah mobil bergerak lurus dengan kecepatan tetap
+        15 m/s selama 8 sekon. Berapakah jarak yang ditempuh?
+      </p>
+      <p><strong>Diketahui:</strong> v = 15 m/s dan t = 8 s</p>
+      <p><strong>Ditanyakan:</strong> s = ...?</p>
+      <p><strong>Penyelesaian:</strong></p>
+      <div class="formula">
+        s = v × t<br>
+        s = 15 × 8<br>
+        s = 120 m
+      </div>
+      <p>Jadi, jarak yang ditempuh mobil adalah 120 meter.</p>
+    </article>
+
+    <button onclick="showPage('simulasi')">Lanjut ke Percobaan →</button>
+  </section>
+
+  <!-- PERCOBAAN -->
+  <section id="simulasi" class="page">
+    <span class="eyebrow">BAGIAN 02</span>
+    <h2>Percobaan Virtual GLB</h2>
+    <p class="intro">
+      Lakukan percobaan untuk mengamati hubungan antara
+      jarak, waktu, dan kecepatan pada GLB.
+    </p>
+
+    <article class="lesson-card">
+      <h3>Tujuan Percobaan</h3>
+      <p>
+        Menyelidiki hubungan antara jarak yang ditempuh,
+        waktu, dan kecepatan benda yang bergerak lurus
+        dengan kecepatan tetap.
+      </p>
+
+      <h3>Petunjuk Percobaan</h3>
+      <ol>
+        <li>Atur nilai kecepatan mobil.</li>
+        <li>Tentukan lama percobaan.</li>
+        <li>Klik tombol Mulai Percobaan.</li>
+        <li>Amati gerak mobil dan perubahan jarak.</li>
+        <li>Perhatikan tabel hasil pengamatan.</li>
+        <li>Gunakan data percobaan untuk menganalisis grafik.</li>
+      </ol>
+    </article>
+
+    <div class="experiment-controls">
+      <h3>Pengaturan Percobaan</h3>
+      <label for="expSpeed">Kecepatan mobil (m/s)</label>
+      <input id="expSpeed" type="number" value="5" min="1" max="20">
+
+      <label for="expDuration">Waktu percobaan (sekon)</label>
+      <input id="expDuration" type="number" value="10" min="2" max="20">
+
+      <div class="button-row">
+        <button id="startExperiment" onclick="startExperiment()">▶ Mulai Percobaan</button>
+        <button class="secondary" onclick="resetExperiment()">↻ Ulangi</button>
+      </div>
+    </div>
+
+    <div class="experiment-display">
+      <div class="road">
+        <div class="road-line"></div>
+        <div id="car" class="car">🚗</div>
+        <div class="road-start">0 m</div>
+        <div class="road-end">Jarak akhir</div>
+      </div>
+
+      <div class="result-grid">
+        <div class="result-box">
+          <span>Waktu</span>
+          <strong id="currentTime">0 s</strong>
+        </div>
+        <div class="result-box">
+          <span>Jarak</span>
+          <strong id="currentDistance">0 m</strong>
+        </div>
+        <div class="result-box">
+          <span>Kecepatan</span>
+          <strong id="currentSpeed">5 m/s</strong>
+        </div>
+      </div>
+      <p id="experimentStatus" class="status">
+        Percobaan siap dimulai.
+      </p>
+    </div>
+
+    <article class="lesson-card">
+      <h3>Tabel Hasil Pengamatan</h3>
+      <p>Data akan tercatat setiap satu sekon selama percobaan.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Waktu (s)</th>
+              <th>Jarak (m)</th>
+              <th>Kecepatan (m/s)</th>
+            </tr>
+          </thead>
+          <tbody id="dataTable">
+            <tr><td colspan="4">Belum ada data percobaan.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <div class="analysis-box">
+      <h3>Pertanyaan Analisis</h3>
+      <ol>
+        <li>Bagaimana hubungan antara waktu dan jarak yang ditempuh mobil?</li>
+        <li>Apakah kecepatan mobil berubah selama percobaan?</li>
+        <li>Apa yang terjadi pada jarak jika waktu gerak diperbesar?</li>
+        <li>Berdasarkan data, apakah percobaan menunjukkan karakteristik GLB? Jelaskan.</li>
+      </ol>
+    </div>
+
+    <button onclick="showPage('grafik')">Lanjut ke Grafik →</button>
+  </section>
+
+  <!-- GRAFIK -->
+  <section id="grafik" class="page">
+    <span class="eyebrow">BAGIAN 03</span>
+    <h2>Analisis Grafik GLB</h2>
+    <p class="intro">
+      Kedua grafik berikut dibuat berdasarkan data dari
+      percobaan virtual yang telah kamu lakukan.
+    </p>
+
+    <div class="chart-card">
+      <h3>1. Grafik Posisi/Jarak terhadap Waktu (s-t)</h3>
+      <p>
+        Grafik ini menunjukkan perubahan jarak benda
+        terhadap waktu. Kemiringan garis menunjukkan
+        nilai kecepatan.
+      </p>
+      <canvas id="positionChart" width="700" height="380"></canvas>
+      <p class="chart-note">
+        Pada GLB, grafik posisi terhadap waktu berbentuk garis lurus.
+      </p>
+    </div>
+
+    <div class="chart-card">
+      <h3>2. Grafik Kecepatan terhadap Waktu (v-t)</h3>
+      <p>
+        Grafik ini menunjukkan perubahan kecepatan benda
+        terhadap waktu.
+      </p>
+      <canvas id="velocityChart" width="700" height="380"></canvas>
+      <p class="chart-note">
+        Pada GLB, grafik kecepatan terhadap waktu berbentuk garis horizontal.
+      </p>
+    </div>
+
+    <div class="analysis-box">
+      <h3>Kesimpulan Grafik</h3>
+      <p>
+        Jika kecepatan benda tetap, jarak bertambah secara
+        teratur seiring bertambahnya waktu. Sementara itu,
+        nilai kecepatan tidak berubah selama percobaan.
+      </p>
+      <p id="graphSummary">
+        Lakukan percobaan terlebih dahulu untuk menampilkan data grafik.
+      </p>
+    </div>
+
+    <button onclick="showPage('kuis')">Lanjut ke Kuis →</button>
+  </section>
+
+  <!-- KUIS -->
+  <section id="kuis" class="page">
+    <span class="eyebrow">BAGIAN 04</span>
+    <h2>Kuis GLB</h2>
+    <p class="intro">
+      Jawablah lima soal berikut untuk menguji pemahamanmu.
+      Pilih satu jawaban yang paling tepat.
+    </p>
+
+    
+<div class="lesson-card">
+  <h3>Identitas Peserta Didik</h3>
+
+  <label for="studentName">Nama lengkap</label>
+  <input id="studentName" type="text"
+    placeholder="Masukkan nama lengkap">
+
+  <label for="studentClass">Kelas</label>
+  <input id="studentClass" type="text"
+    placeholder="Contoh: X-1">
+</div>
+
+<div class="lesson-card">
+  <h3>Jawaban Pertanyaan Analisis</h3>
+  <p>Jawablah berdasarkan hasil percobaan yang telah dilakukan.</p>
+
+  <label for="analysis1">
+    1. Bagaimana hubungan antara waktu dan jarak yang ditempuh mobil?
+  </label>
+  <textarea id="analysis1" rows="3"
+    placeholder="Tuliskan jawabanmu..."></textarea>
+
+  <label for="analysis2">
+    2. Apakah kecepatan mobil berubah selama percobaan?
+  </label>
+  <textarea id="analysis2" rows="3"
+    placeholder="Tuliskan jawabanmu..."></textarea>
+
+  <label for="analysis3">
+    3. Apa yang terjadi pada jarak jika waktu gerak diperbesar?
+  </label>
+  <textarea id="analysis3" rows="3"
+    placeholder="Tuliskan jawabanmu..."></textarea>
+
+  <label for="analysis4">
+    4. Berdasarkan data, apakah percobaan menunjukkan karakteristik GLB? Jelaskan.
+  </label>
+  <textarea id="analysis4" rows="3"
+    placeholder="Tuliskan jawabanmu..."></textarea>
+</div>
+
+<div id="quizContainer"></div>
+
+    <button id="submitQuiz" onclick="submitQuiz()">Periksa Jawaban</button>
+    <button class="secondary" onclick="resetQuiz()">Ulangi Kuis</button>
+
+    <div id="quizResult" class="quiz-result"></div>
+  </section>
+
+</main>
+
+<footer>
+  <h3>GLB CHALLENGE</h3>
+  <p>Media Pembelajaran Fisika Kelas X | Fase E</p>
+  <p>Belajar · Bereksperimen · Menganalisis</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
